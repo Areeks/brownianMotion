@@ -118,7 +118,7 @@ def xy_N(iloscSymulacji = 100, iloscKrokow = 1000):
 def wykresPolozenKoncowych(x,y, iloscSymulacji = 100, iloscKrokow = 1000):
    markersize = 1 
    color = 'k'
-   tytul = 'Współrzędne położenia końcowego w {} symulacjich\n ilość kroków {} '.format(iloscSymulacji, iloscKrokow)
+   tytul = 'Współrzędne położenia końcowego w {} symulacjach\n ilość kroków {} '.format(iloscSymulacji, iloscKrokow)
    
    fig, ax = plt.subplots()
    
